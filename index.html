@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <div class="area">
+          <div id="text-container">
+            This is the text that can be edited by pressing Ctrl+E
+          </div>
+        </div>
+        <div class="area">
+          <div class="exersize">
+            <h3>Exersize - 1</h3>
+            <p>
+              Створити HTML-сторінку для відображення/редагування тексту. При
+              відкритті сторінки текст відображається за допомогою тега div. При
+              натисканні Ctrl + E, замість div з'являється textarea з тим же
+              текстом, який тепер можна редагувати. При натисканні Ctrl + S,
+              замість textarea з'являється div з уже зміненим текстом. Не забудь
+              вимкнути поведінку за замовчуванням для цих поєднань клавіш.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="area">
+          <table id="myTable">
+            <thead>
+              <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Age</th>
+                <th onclick="sortTable(2)">Salary</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Patrik</td>
+                <td>25</td>
+                <td>2000</td>
+              </tr>
+              <tr>
+                <td>Sara</td>
+                <td>30</td>
+                <td>1800</td>
+              </tr>
+              <tr>
+                <td>Emanuel</td>
+                <td>20</td>
+                <td>2700</td>
+              </tr>
+              <tr>
+                <td>Patrik</td>
+                <td>22</td>
+                <td>2200</td>
+              </tr><tr>
+                <td>Emma</td>
+                <td>40</td>
+                <td>2900</td>
+              </tr><tr>
+                <td>Alexa</td>
+                <td>23</td>
+                <td>2100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="area">
+          <div class="exersize">
+            <h3>Exersize - 2</h3>
+            <p>
+              Створити HTML-сторінку з великою таблицею. При кліку на заголовок
+              стовпця, необхідно відсортувати дані цього стовпця. Врахуй, що
+              числові значення повинні сортуватися як числа, а не як рядки.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="area">
+          <div id="block">
+            <p>Це блок тексту.</p>
+          </div>
+        </div>
+        <div class="area">
+          <div class="exersize">
+            <h3>Exersize - 3</h3>
+            <p>
+              Створити HTML-сторінку з блоком тексту в рамці. Реалізувати
+              можливість змінювати розмір блоку, якщо затиснути мишку в правому
+              нижньому кутку і тягнути її далі.
+            </p>
+          </div>
+        </div>
+      </section>
+      <script src="./script.js"></script>
+    </main>
+  </body>
+</html>

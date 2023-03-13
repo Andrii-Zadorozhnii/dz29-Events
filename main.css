@@ -1,0 +1,87 @@
+body{
+    padding: 30px;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+main{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    background: gray;
+}
+
+.section{
+    padding: 20px;
+    min-height: 200px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+th{
+    background: gray;
+    color: white;
+
+}
+
+th:hover{
+    cursor: grab;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#block {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    resize: both; /* allows resizing */
+    overflow: auto; /* adds scrollbar when content overflows */
+}
+
+textarea{
+    min-width: 250px;
+    min-height: 100px;
+}
+.area{
+    width: calc(50% - 20px);
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.exersize{
+    display: flex;
+    flex-direction: column;
+    text-align: center;;
+}
+
+#block {
+    padding: 5px;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    resize: both; /* allows resizing */
+    overflow: auto; /* adds scrollbar when content overflows */
+}
+
+#block:hover{
+    border: 2px solid rgb(28, 45, 31);
+}
